@@ -1,0 +1,39 @@
+.navigator{
+    background-color: #000000;
+    color:#ffffff;
+    width: 100%;
+    font-weight:800;
+}
+
+.navigator-wrapper {
+    width: 60%;
+    height: 3.5em;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+}
+
+.navigator-item {
+    flex:1;
+    line-height:3.5em;
+    text-align: center;
+}
+
+.navigator-item a, a:hover, a:link, a:active, a:visited {
+    color:#ffffff;
+}
+
+.top-icon {
+    margin:0.25em auto;
+    height: 3em;
+    width: 3em;
+}
+
+.not-focus:hover {
+    cursor:pointer;
+    font-size:1.1em;
+}
+
+.focus {
+    background-color: #5b5b5b;
+}
