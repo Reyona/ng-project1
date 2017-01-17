@@ -21,3 +21,13 @@ app.config(['$locationProvider','$routeProvider',function($locationProvider,$rou
             redirectTo:'/'
         });
 }]);
+
+app.controller('MainController',['$scope',function($scope){
+    $scope.user={
+        name:'Cherry'
+    };
+    $scope.displayView='';
+    $scope.switchView=function(viewName){
+        $scope.displayView=viewName;
+    }
+}]);
